@@ -55,7 +55,7 @@ input, button, .button{
     margin: 4rem 0;
 }
 
-.separator div:nth-child(2){
+.separator div:nth-child(2){ /* segundo filho da div separator */
     color: var(--grey-blue);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
