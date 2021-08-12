@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="styles/room.css">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
         <title>Perguntas e respostas</title>
     </head>
@@ -35,7 +35,27 @@
                     </a>
 
                 </div>
+
             </header>
+
+            <main>
+                <section id="question-form">
+                    <h2>Faça sua pergunta</h2>
+                    <form action="">
+                        <label for-id="question" class="sr-only">O que você quer perguntar?</label>
+                        <textarea placeholder="O que você quer perguntar?" name="question" id="question"></textarea>
+
+                        <footer>
+                            <div>
+                                <img src="assets/lock.svg" alt="Cadeado">
+                                Esta pergunta é anônima
+                            </div>
+                            <button>Enviar</button>
+                        </footer>
+                    </form>
+                </section>
+            </main>
+
         </div>
 
     </body>
