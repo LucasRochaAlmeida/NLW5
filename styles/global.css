@@ -19,6 +19,7 @@ html{
     --grey-dark: #4D5E77;
     --grey-blue: #a1b2cd;
     --grey-light: #e5eaf1;
+    --grey-medium: #eaecf2;
 
     /* 1rem = 16px */
     font-size: 62.5%;
